@@ -221,7 +221,7 @@ These become categorical (Title) or numeric (FamilySize) and flow through the sa
 | Extract structure (Title, deck letter) | Prosise's approach |
 | Target / frequency encoding | Leakage risk if done wrong |
 | Hashing (`FeatureHasher`) | Collisions, fast |
-| Embeddings | [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/README.md) deep tabular |
+| Embeddings | [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/README.md) deep tabular |
 
 For this chapter: **engineer**, don't one-hot 900 ticket strings.
 

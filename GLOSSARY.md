@@ -423,11 +423,11 @@ Sinusoidal (or learned) vectors added to token embeddings so [transformers](#tra
 
 <a id="artificial-intelligence"></a>
 ### Artificial Intelligence
-Study and construction of **rational agents** that perceive and act. Broader than [ML](#machine-learning). See [Chapter 01](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-01-introduction/README.md).
+Study and construction of **rational agents** that perceive and act. Broader than [ML](#machine-learning). See [Chapter 01](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-01-introduction/README.md).
 
 <a id="rational-agent"></a>
 ### Rational Agent
-Entity that selects actions to maximize **expected** [performance measure](#performance-measure), given its [percepts](#percept) and prior knowledge — not omniscience. Central framework of AIMA. See [Section 2.2](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-02-intelligent-agents/section-02-good-behavior-and-rationality.md).
+Entity that selects actions to maximize **expected** [performance measure](#performance-measure), given its [percepts](#percept) and prior knowledge — not omniscience. Central framework of AIMA. See [Section 2.2](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-02-intelligent-agents/section-02-good-behavior-and-rationality.md).
 
 $$
 a^* = \arg\max_{a} \mathbb{E}[\text{Performance} \mid a, \text{percepts}, \text{knowledge}]
@@ -437,15 +437,15 @@ $$
 
 <a id="peas"></a>
 ### PEAS
-Framework for specifying a **task environment**: **P**erformance measure, **E**nvironment, **A**ctuators, **S**ensors. Design checklist before choosing agent architecture. See [Section 2.3](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-02-intelligent-agents/section-03-the-nature-of-environments.md).
+Framework for specifying a **task environment**: **P**erformance measure, **E**nvironment, **A**ctuators, **S**ensors. Design checklist before choosing agent architecture. See [Section 2.3](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-02-intelligent-agents/section-03-the-nature-of-environments.md).
 
 <a id="percept"></a>
 ### Percept
-The agent's sensory input at one instant, produced by **sensors**. May differ from the true environment state (especially in partially observable settings). See [Section 2.1](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-02-intelligent-agents/section-01-agents-and-environments.md).
+The agent's sensory input at one instant, produced by **sensors**. May differ from the true environment state (especially in partially observable settings). See [Section 2.1](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-02-intelligent-agents/section-01-agents-and-environments.md).
 
 <a id="performance-measure"></a>
 ### Performance Measure
-External criterion scoring how well an agent is doing based on **environment states** (not just percepts). Rationality is defined relative to this measure. See [Section 2.2](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-02-intelligent-agents/section-02-good-behavior-and-rationality.md).
+External criterion scoring how well an agent is doing based on **environment states** (not just percepts). Rationality is defined relative to this measure. See [Section 2.2](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-02-intelligent-agents/section-02-good-behavior-and-rationality.md).
 
 <a id="turing-test"></a>
 ### Turing Test
@@ -453,19 +453,19 @@ If a human cannot distinguish machine from human in conversation, machine is "in
 
 <a id="search-algorithm"></a>
 ### Search Algorithm
-Systematic exploration of states to find a goal. BFS, UCS, A*, etc. See [Chapter 03](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-03-solving-problems-by-searching/README.md).
+Systematic exploration of states to find a goal. BFS, UCS, A*, etc. See [Chapter 03](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-03-solving-problems-by-searching/README.md).
 
 <a id="heuristic"></a>
 ### Heuristic
-Function $h(n)$ estimating remaining cost from state $n$ to a goal. Used by informed search to prioritize promising nodes. Quality depends on domain knowledge. See [Section 3.5](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-03-solving-problems-by-searching/section-05-heuristic-functions.md).
+Function $h(n)$ estimating remaining cost from state $n$ to a goal. Used by informed search to prioritize promising nodes. Quality depends on domain knowledge. See [Section 3.5](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-03-solving-problems-by-searching/section-05-heuristic-functions.md).
 
 <a id="admissible-heuristic"></a>
 ### Admissible Heuristic
-Heuristic that never overestimates true remaining cost: $h(n) \leq h^*(n)$ for all $n$. Required for A* optimality (tree search). Straight-line distance on Romania and Manhattan distance on the 8-puzzle are admissible. See [Section 3.4](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-03-solving-problems-by-searching/section-04-informed-search.md).
+Heuristic that never overestimates true remaining cost: $h(n) \leq h^*(n)$ for all $n$. Required for A* optimality (tree search). Straight-line distance on Romania and Manhattan distance on the 8-puzzle are admissible. See [Section 3.4](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-03-solving-problems-by-searching/section-04-informed-search.md).
 
 <a id="a-star-search"></a>
 ### A* Search
-Best-first search with evaluation $f(n) = g(n) + h(n)$ — path cost so far plus heuristic estimate. Optimal when $h$ is admissible (and consistent for graph search). See [Section 3.4](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-03-solving-problems-by-searching/section-04-informed-search.md).
+Best-first search with evaluation $f(n) = g(n) + h(n)$ — path cost so far plus heuristic estimate. Optimal when $h$ is admissible (and consistent for graph search). See [Section 3.4](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-03-solving-problems-by-searching/section-04-informed-search.md).
 
 $$
 f(n) = g(n) + h(n)
@@ -475,71 +475,71 @@ $$
 
 <a id="local-search"></a>
 ### Local Search
-Algorithms that keep one or few current states and move to neighbors by objective value — no path memory. Used for optimization and CSPs. See [Section 4.1](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-01-local-search.md).
+Algorithms that keep one or few current states and move to neighbors by objective value — no path memory. Used for optimization and CSPs. See [Section 4.1](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-01-local-search.md).
 
 <a id="hill-climbing"></a>
 ### Hill Climbing
-Greedy local search: move to the best neighbor; stop at a local maximum. Variants include stochastic, first-choice, and random-restart. See [Section 4.2](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-01-local-search.md).
+Greedy local search: move to the best neighbor; stop at a local maximum. Variants include stochastic, first-choice, and random-restart. See [Section 4.2](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-01-local-search.md).
 
 <a id="simulated-annealing"></a>
 ### Simulated Annealing
-Local search that sometimes accepts worse moves with probability $e^{-\Delta E/T}$, with temperature $T$ decreasing over time — escapes local optima. See [Section 4.3](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-01-local-search.md).
+Local search that sometimes accepts worse moves with probability $e^{-\Delta E/T}$, with temperature $T$ decreasing over time — escapes local optima. See [Section 4.3](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-01-local-search.md).
 
 <a id="genetic-algorithm"></a>
 ### Genetic Algorithm
-Population-based search using selection, crossover, and mutation on encoded solutions. See [Section 4.4](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-01-local-search.md).
+Population-based search using selection, crossover, and mutation on encoded solutions. See [Section 4.4](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-01-local-search.md).
 
 <a id="belief-state"></a>
 ### Belief State
-Set (or distribution) over physical states the agent considers possible under partial observability. Search in belief-state space plans despite uncertainty. See [Section 4.7](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-04-partial-observability.md).
+Set (or distribution) over physical states the agent considers possible under partial observability. Search in belief-state space plans despite uncertainty. See [Section 4.7](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-04-search-complex-environments/section-04-partial-observability.md).
 
 <a id="minimax"></a>
 ### Minimax
-Game-tree algorithm: MAX maximizes backed-up utility, MIN minimizes it — optimal play vs. rational opponent. See [Section 5.2](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-05-adversarial-search-games/section-02-minimax.md).
+Game-tree algorithm: MAX maximizes backed-up utility, MIN minimizes it — optimal play vs. rational opponent. See [Section 5.2](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-05-adversarial-search-games/section-02-minimax.md).
 
 <a id="alpha-beta-pruning"></a>
 ### Alpha-Beta Pruning
-Prunes game-tree branches that cannot change the minimax root value; same result as minimax with fewer node expansions. See [Section 5.3](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-05-adversarial-search-games/section-03-alpha-beta-pruning.md).
+Prunes game-tree branches that cannot change the minimax root value; same result as minimax with fewer node expansions. See [Section 5.3](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-05-adversarial-search-games/section-03-alpha-beta-pruning.md).
 
 <a id="mcts"></a>
 ### MCTS (Monte Carlo Tree Search)
-Select → expand → simulate → backpropagate loop with UCT balancing exploitation and exploration. Powers modern Go and general game AI. See [Section 5.6](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-05-adversarial-search-games/section-06-monte-carlo-tree-search.md).
+Select → expand → simulate → backpropagate loop with UCT balancing exploitation and exploration. Powers modern Go and general game AI. See [Section 5.6](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-05-adversarial-search-games/section-06-monte-carlo-tree-search.md).
 
 <a id="csp"></a>
 ### CSP (Constraint Satisfaction Problem)
-Problem defined by variables, domains, and constraints; solution is a consistent complete assignment. See [Section 6.1](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-06-constraint-satisfaction/section-01-csp-formulation.md).
+Problem defined by variables, domains, and constraints; solution is a consistent complete assignment. See [Section 6.1](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-06-constraint-satisfaction/section-01-csp-formulation.md).
 
 <a id="arc-consistency"></a>
 ### Arc Consistency
-For every value in $X_i$'s domain, some value in $X_j$'s domain satisfies the binary constraint on arc $(X_i, X_j)$. Enforced by AC-3. See [Section 6.3](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-06-constraint-satisfaction/section-03-constraint-propagation.md).
+For every value in $X_i$'s domain, some value in $X_j$'s domain satisfies the binary constraint on arc $(X_i, X_j)$. Enforced by AC-3. See [Section 6.3](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-06-constraint-satisfaction/section-03-constraint-propagation.md).
 
 <a id="forward-checking"></a>
 ### Forward Checking
-After assigning a variable, remove inconsistent values from unassigned neighbors' domains — lightweight constraint propagation. See [Section 6.3](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-06-constraint-satisfaction/section-03-constraint-propagation.md).
+After assigning a variable, remove inconsistent values from unassigned neighbors' domains — lightweight constraint propagation. See [Section 6.3](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-06-constraint-satisfaction/section-03-constraint-propagation.md).
 
 <a id="knowledge-base"></a>
 ### Knowledge Base (KB)
-Set of sentences representing what an agent knows; updated with TELL, queried with ASK. See [Section 7.1](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-01-knowledge-based-agents.md).
+Set of sentences representing what an agent knows; updated with TELL, queried with ASK. See [Section 7.1](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-01-knowledge-based-agents.md).
 
 <a id="entailment"></a>
 ### Entailment
-$KB \models \alpha$ means $\alpha$ is true in every model of $KB$. Semantic basis for logical inference. See [Section 7.3](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-03-inference-and-entailment.md).
+$KB \models \alpha$ means $\alpha$ is true in every model of $KB$. Semantic basis for logical inference. See [Section 7.3](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-03-inference-and-entailment.md).
 
 <a id="resolution"></a>
 ### Resolution
-Inference rule: from $(L \lor A)$ and $(\neg L \lor B)$ derive $(A \lor B)$. Complete for propositional refutation. See [Section 7.4](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-04-theorem-proving.md).
+Inference rule: from $(L \lor A)$ and $(\neg L \lor B)$ derive $(A \lor B)$. Complete for propositional refutation. See [Section 7.4](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-04-theorem-proving.md).
 
 <a id="horn-clause"></a>
 ### Horn Clause
-Clause with at most one positive literal; enables linear-time forward and backward chaining. See [Section 7.5](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-05-forward-chaining.md).
+Clause with at most one positive literal; enables linear-time forward and backward chaining. See [Section 7.5](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-05-forward-chaining.md).
 
 <a id="forward-chaining"></a>
 ### Forward Chaining
-Data-driven inference on Horn KB: fire rules whose premises are known until query derived. See [Section 7.5](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-05-forward-chaining.md).
+Data-driven inference on Horn KB: fire rules whose premises are known until query derived. See [Section 7.5](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-05-forward-chaining.md).
 
 <a id="wumpus-world"></a>
 ### Wumpus World
-Grid cave environment for logical agents: gold, pits, Wumpus; percepts stench/breeze/glitter drive KB inference. See [Section 7.7](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-07-wumpus-world.md).
+Grid cave environment for logical agents: gold, pits, Wumpus; percepts stench/breeze/glitter drive KB inference. See [Section 7.7](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-07-logical-agents/section-07-wumpus-world.md).
 
 <a id="utility"></a>
 ### Utility
@@ -596,11 +596,11 @@ Only **0.14%** of patients with the symptom have the disease — the **base rate
 
 **Course 2, Chapter 12 sections:**
 
-- [Section 12.3 — Conditional Probability](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-12-quantifying-uncertainty/section-03-conditional-probability.md) (product rule, chain rule)
-- [Section 12.5 — Bayes' Rule Applications](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-12-quantifying-uncertainty/section-05-bayes-rule-applications.md) (diagnosis, sensor fusion)
-- [Section 12.6 — Naive Bayes Classifier](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-12-quantifying-uncertainty/section-06-naive-bayes-classifier.md)
+- [Section 12.3 — Conditional Probability](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-12-quantifying-uncertainty/section-03-conditional-probability.md) (product rule, chain rule)
+- [Section 12.5 — Bayes' Rule Applications](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-12-quantifying-uncertainty/section-05-bayes-rule-applications.md) (diagnosis, sensor fusion)
+- [Section 12.6 — Naive Bayes Classifier](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-12-quantifying-uncertainty/section-06-naive-bayes-classifier.md)
 
-Also see [Course 3, Section 3.4](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-04-bayes-rule.md).
+Also see [Course 3, Section 3.4](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-04-bayes-rule.md).
 
 ---
 
@@ -608,75 +608,75 @@ Also see [Course 3, Section 3.4](https://github.com/Collaborative-ai/ai-academy-
 
 <a id="eigenvalue"></a>
 ### Eigenvalue
-Scalar $\lambda$ in $A\mathbf{v} = \lambda\mathbf{v}$ — scale factor along eigenvector direction. Covariance eigenvalues equal PCA variances. See [Section 2.6](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-06-eigendecomposition.md).
+Scalar $\lambda$ in $A\mathbf{v} = \lambda\mathbf{v}$ — scale factor along eigenvector direction. Covariance eigenvalues equal PCA variances. See [Section 2.6](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-06-eigendecomposition.md).
 
 <a id="eigenvector"></a>
 ### Eigenvector
-Nonzero vector $\mathbf{v}$ unchanged in direction by matrix $A$; only scaled by [eigenvalue](#eigenvalue). See [Section 2.6](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-06-eigendecomposition.md).
+Nonzero vector $\mathbf{v}$ unchanged in direction by matrix $A$; only scaled by [eigenvalue](#eigenvalue). See [Section 2.6](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-06-eigendecomposition.md).
 
 <a id="svd"></a>
 ### Singular Value Decomposition (SVD)
-Factorization $A = U\Sigma V^\top$ for any matrix; truncated SVD gives optimal low-rank approximation. See [Section 2.7](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-07-singular-value-decomposition.md).
+Factorization $A = U\Sigma V^\top$ for any matrix; truncated SVD gives optimal low-rank approximation. See [Section 2.7](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-07-singular-value-decomposition.md).
 
 <a id="singular-value"></a>
 ### Singular Value
-Non-negative diagonal entries $\sigma_i$ in [SVD](#svd); spectral norm equals largest singular value. See [Section 2.7](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-07-singular-value-decomposition.md).
+Non-negative diagonal entries $\sigma_i$ in [SVD](#svd); spectral norm equals largest singular value. See [Section 2.7](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-07-singular-value-decomposition.md).
 
 <a id="pseudo-inverse"></a>
 ### Pseudo-inverse (Moore-Penrose)
-Generalized inverse $A^+$ via SVD; solves least squares when $A$ is singular or rectangular. See [Section 2.8](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-08-pseudo-inverse-and-principal-components.md).
+Generalized inverse $A^+$ via SVD; solves least squares when $A$ is singular or rectangular. See [Section 2.8](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-08-pseudo-inverse-and-principal-components.md).
 
 <a id="norm"></a>
 ### Norm
-Function measuring vector or matrix size; L1, L2, Frobenius norms connect to [regularization](#regularization). See [Section 2.5](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-05-norms.md).
+Function measuring vector or matrix size; L1, L2, Frobenius norms connect to [regularization](#regularization). See [Section 2.5](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/section-05-norms.md).
 
 <a id="entropy"></a>
 ### Entropy
-$H(X) = -\mathbb{E}[\log p(x)]$ — uncertainty in a distribution (bits or nats). See [Section 3.6](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-06-information-theory.md).
+$H(X) = -\mathbb{E}[\log p(x)]$ — uncertainty in a distribution (bits or nats). See [Section 3.6](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-06-information-theory.md).
 
 <a id="kl-divergence"></a>
 ### KL Divergence
-$D_{\mathrm{KL}}(P\|Q) = \mathbb{E}_P[\log\frac{P(x)}{Q(x)}]$ — asymmetric measure of distribution difference; non-negative. See [Section 3.7](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-07-kl-divergence-and-cross-entropy.md).
+$D_{\mathrm{KL}}(P\|Q) = \mathbb{E}_P[\log\frac{P(x)}{Q(x)}]$ — asymmetric measure of distribution difference; non-negative. See [Section 3.7](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-07-kl-divergence-and-cross-entropy.md).
 
 <a id="cross-entropy"></a>
 ### Cross-Entropy
-$H(P,Q) = H(P) + D_{\mathrm{KL}}(P\|Q)$ — standard classification loss when $P$ is empirical labels. See [Section 3.7](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-07-kl-divergence-and-cross-entropy.md).
+$H(P,Q) = H(P) + D_{\mathrm{KL}}(P\|Q)$ — standard classification loss when $P$ is empirical labels. See [Section 3.7](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-07-kl-divergence-and-cross-entropy.md).
 
 <a id="softmax"></a>
 ### Softmax
-Maps logits $\mathbf{z}$ to a probability vector: $\mathrm{softmax}(z_i) = e^{z_i}/\sum_j e^{z_j}$. Use log-sum-exp for stability. See [Section 4.5](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-05-numerically-stable-softmax.md) and [Section 6.7](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/section-07-softmax-and-multinomial-outputs.md).
+Maps logits $\mathbf{z}$ to a probability vector: $\mathrm{softmax}(z_i) = e^{z_i}/\sum_j e^{z_j}$. Use log-sum-exp for stability. See [Section 4.5](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-05-numerically-stable-softmax.md) and [Section 6.7](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/section-07-softmax-and-multinomial-outputs.md).
 
 <a id="bias-variance"></a>
 ### Bias-Variance Tradeoff
-Decomposition of generalization error into systematic error (bias), sensitivity to training set (variance), and irreducible noise. See [Section 5.3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-03-estimation-bias-and-variance.md).
+Decomposition of generalization error into systematic error (bias), sensitivity to training set (variance), and irreducible noise. See [Section 5.3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-03-estimation-bias-and-variance.md).
 
 <a id="capacity"></a>
 ### Capacity
-Ability of a model family to fit diverse functions; high capacity risks [overfitting](#overfitting). See [Section 5.2](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-02-capacity-and-overfitting.md).
+Ability of a model family to fit diverse functions; high capacity risks [overfitting](#overfitting). See [Section 5.2](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-02-capacity-and-overfitting.md).
 
 <a id="mlp"></a>
 ### MLP (Multilayer Perceptron)
-Feedforward network with one or more hidden layers of nonlinear units. See [Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md).
+Feedforward network with one or more hidden layers of nonlinear units. See [Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md).
 
 <a id="relu"></a>
 ### ReLU
-Rectified Linear Unit: $\max(0, z)$. Default hidden activation in modern networks. See [Section 6.3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/section-03-hidden-units.md).
+Rectified Linear Unit: $\max(0, z)$. Default hidden activation in modern networks. See [Section 6.3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/section-03-hidden-units.md).
 
 <a id="pmf"></a>
 ### PMF (Probability Mass Function)
-Discrete distribution $p(x)$ with $\sum_x p(x) = 1$. See [Section 3.2](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-02-random-variables.md).
+Discrete distribution $p(x)$ with $\sum_x p(x) = 1$. See [Section 3.2](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-02-random-variables.md).
 
 <a id="pdf"></a>
 ### PDF (Probability Density Function)
-Continuous density with $\int p(x)\,dx = 1$; probabilities are integrals over intervals. See [Section 3.2](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-02-random-variables.md).
+Continuous density with $\int p(x)\,dx = 1$; probabilities are integrals over intervals. See [Section 3.2](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-02-random-variables.md).
 
 <a id="cdf"></a>
 ### CDF (Cumulative Distribution Function)
-$F(x) = P(X \leq x)$. See [Section 3.2](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-02-random-variables.md).
+$F(x) = P(X \leq x)$. See [Section 3.2](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-02-random-variables.md).
 
 <a id="bayesian-statistics"></a>
 ### Bayesian Statistics
-Treats parameters as random variables; learning updates prior to posterior via [Bayes' rule](#bayes-rule). See [Section 5.7](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-07-bayesian-statistics.md).
+Treats parameters as random variables; learning updates prior to posterior via [Bayes' rule](#bayes-rule). See [Section 5.7](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-07-bayesian-statistics.md).
 
 <a id="map-estimation"></a>
 ### MAP Estimation
@@ -688,19 +688,19 @@ Bootstrap aggregating trains multiple models on resampled datasets and averages 
 
 <a id="empirical-risk"></a>
 ### Empirical Risk
-Average loss on training set: $\frac{1}{m}\sum_i L(f(\mathbf{x}^{(i)}), y^{(i)})$. Minimized by [gradient descent](#gradient-descent). See [Section 5.1](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-01-learning-algorithms.md).
+Average loss on training set: $\frac{1}{m}\sum_i L(f(\mathbf{x}^{(i)}), y^{(i)})$. Minimized by [gradient descent](#gradient-descent). See [Section 5.1](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-01-learning-algorithms.md).
 
 <a id="stochastic-gradient-descent"></a>
 ### Stochastic Gradient Descent (SGD)
-[Gradient descent](#gradient-descent) on mini-batches; adds noise that can help generalization. See [Section 5.9](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-09-stochastic-gradient-descent.md).
+[Gradient descent](#gradient-descent) on mini-batches; adds noise that can help generalization. See [Section 5.9](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-09-stochastic-gradient-descent.md).
 
 <a id="backpropagation"></a>
 ### Backpropagation
-Algorithm computing gradients of loss w.r.t. all parameters via chain rule. See [Section 6.5](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/section-05-backpropagation-derivation.md).
+Algorithm computing gradients of loss w.r.t. all parameters via chain rule. See [Section 6.5](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/section-05-backpropagation-derivation.md).
 
 <a id="gradient-descent"></a>
 ### Gradient Descent
-Iterative optimization: $\theta \leftarrow \theta - \eta \nabla_\theta L$. See [Section 4.3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-03-gradient-based-optimization.md).
+Iterative optimization: $\theta \leftarrow \theta - \eta \nabla_\theta L$. See [Section 4.3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-03-gradient-based-optimization.md).
 
 <a id="learning-rate"></a>
 ### Learning Rate
@@ -712,7 +712,7 @@ Layer operation that normalizes intermediate activations using batch statistics 
 
 <a id="neural-network"></a>
 ### Neural Network
-Composable layers of neurons learning hierarchical [representations](#representation-learning). In Course 1, built with Keras `Dense` layers for tabular and flattened-pixel inputs. See [Chapter 09](./chapters/chapter-09-neural-networks/README.md) and [Chapter 06](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md).
+Composable layers of neurons learning hierarchical [representations](#representation-learning). In Course 1, built with Keras `Dense` layers for tabular and flattened-pixel inputs. See [Chapter 09](./chapters/chapter-09-neural-networks/README.md) and [Chapter 06](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/README.md).
 
 <a id="dense-layer"></a>
 ### Dense Layer
@@ -728,23 +728,23 @@ Automatically discovering useful features from raw data. Core idea of [deep lear
 
 <a id="condition-number"></a>
 ### Condition Number
-Ratio $\kappa(A) = \|A\|\|A^{-1}\|$ measuring sensitivity to perturbations; large $\kappa$ means [ill-conditioning](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-02-ill-conditioning.md). See [Section 4.2](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-02-ill-conditioning.md).
+Ratio $\kappa(A) = \|A\|\|A^{-1}\|$ measuring sensitivity to perturbations; large $\kappa$ means [ill-conditioning](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-02-ill-conditioning.md). See [Section 4.2](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-02-ill-conditioning.md).
 
 <a id="log-sum-exp"></a>
 ### Log-Sum-Exp Trick
-Stable computation of $\log\sum_i e^{z_i}$ by subtracting $\max_i z_i$ before exponentiating. See [Section 4.5](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-05-numerically-stable-softmax.md).
+Stable computation of $\log\sum_i e^{z_i}$ by subtracting $\max_i z_i$ before exponentiating. See [Section 4.5](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/section-05-numerically-stable-softmax.md).
 
 <a id="universal-approximation"></a>
 ### Universal Approximation
-Theorem: sufficiently wide single-hidden-layer networks can approximate continuous functions on compact domains. See [Section 6.6](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/section-06-universal-approximation.md).
+Theorem: sufficiently wide single-hidden-layer networks can approximate continuous functions on compact domains. See [Section 6.6](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-06-deep-feedforward-networks/section-06-universal-approximation.md).
 
 <a id="autoencoder"></a>
 ### Autoencoder
-[Neural network](#neural-network) trained to reconstruct input through code $\mathbf{h}=f(\mathbf{x})$, $\hat{\mathbf{x}}=g(\mathbf{h})$. Course 3, [Chapter 14](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-14-autoencoders/README.md).
+[Neural network](#neural-network) trained to reconstruct input through code $\mathbf{h}=f(\mathbf{x})$, $\hat{\mathbf{x}}=g(\mathbf{h})$. Course 3, [Chapter 14](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-14-autoencoders/README.md).
 
 <a id="elbo"></a>
 ### ELBO (Evidence Lower Bound)
-Variational lower bound on $\log p(\mathbf{v})$: $\mathcal{L}=\mathbb{E}_q[\log p(\mathbf{v},\mathbf{h})-\log q(\mathbf{h})]$. Course 3, [Chapter 19](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-19-approximate-inference/README.md).
+Variational lower bound on $\log p(\mathbf{v})$: $\mathcal{L}=\mathbb{E}_q[\log p(\mathbf{v},\mathbf{h})-\log q(\mathbf{h})]$. Course 3, [Chapter 19](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-19-approximate-inference/README.md).
 
 <a id="variational-inference"></a>
 ### Variational Inference
@@ -752,7 +752,7 @@ Approximate $p(\mathbf{h}\mid\mathbf{v})$ with tractable $q(\mathbf{h})$ by mini
 
 <a id="partition-function"></a>
 ### Partition Function
-$Z=\sum_{\mathbf{x}}\exp(-E(\mathbf{x}))$ normalizes undirected models; intractable in high dimensions. Course 3, [Chapter 18](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-18-partition-function/README.md).
+$Z=\sum_{\mathbf{x}}\exp(-E(\mathbf{x}))$ normalizes undirected models; intractable in high dimensions. Course 3, [Chapter 18](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-18-partition-function/README.md).
 
 <a id="contrastive-divergence"></a>
 ### Contrastive Divergence (CD)
@@ -760,15 +760,15 @@ RBM training approximation using short Gibbs chains between data and model stati
 
 <a id="rbm"></a>
 ### Restricted Boltzmann Machine (RBM)
-Bipartite undirected [generative model](#generative-model) with visible $\mathbf{v}$ and hidden $\mathbf{h}$ layers. Course 3, [Chapter 20](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md).
+Bipartite undirected [generative model](#generative-model) with visible $\mathbf{v}$ and hidden $\mathbf{h}$ layers. Course 3, [Chapter 20](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-20-deep-generative-models/README.md).
 
 <a id="ica"></a>
 ### Independent Component Analysis (ICA)
-Linear factor model recovering statistically independent non-Gaussian sources (blind source separation). Course 3, [Chapter 13](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md).
+Linear factor model recovering statistically independent non-Gaussian sources (blind source separation). Course 3, [Chapter 13](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-13-linear-factor-models/README.md).
 
 <a id="monte-carlo"></a>
 ### Monte Carlo Method
-Estimate $\mathbb{E}[f(\mathbf{x})]$ by averaging over random samples. Course 3, [Chapter 17](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-17-monte-carlo-methods/README.md).
+Estimate $\mathbb{E}[f(\mathbf{x})]$ by averaging over random samples. Course 3, [Chapter 17](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-17-monte-carlo-methods/README.md).
 
 <a id="mcmc"></a>
 ### MCMC (Markov Chain Monte Carlo)
@@ -776,15 +776,15 @@ Construct Markov chains whose stationary distribution is the target $p(\mathbf{x
 
 <a id="ctc-loss"></a>
 ### CTC Loss (Connectionist Temporal Classification)
-Aligns variable-length label sequences to frame-level predictions without explicit segmentation. Used in speech recognition. Course 3, [Section 12.3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/section-03-speech-recognition.md).
+Aligns variable-length label sequences to frame-level predictions without explicit segmentation. Used in speech recognition. Course 3, [Section 12.3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-12-applications/section-03-speech-recognition.md).
 
 <a id="bayesian-probability"></a>
 ### Bayesian Probability
-Interpretation of probability as a **degree of belief** on $[0,1]$, used when events are not repeatable (e.g., medical diagnosis). Contrasts with **frequentist probability** (long-run relative frequency). Both obey the same axioms per Ramsey (1926). See [Section 3.1](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-01-why-probability.md).
+Interpretation of probability as a **degree of belief** on $[0,1]$, used when events are not repeatable (e.g., medical diagnosis). Contrasts with **frequentist probability** (long-run relative frequency). Both obey the same axioms per Ramsey (1926). See [Section 3.1](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-01-why-probability.md).
 
 <a id="bayesian-network"></a>
 ### Bayesian Network
-Directed acyclic graphical model factorizing $p(\mathbf{x})=\prod_i p(x_i\mid \mathrm{Pa}(x_i))$. Course 3, [Chapter 16](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-16-structured-probabilistic-models/README.md).
+Directed acyclic graphical model factorizing $p(\mathbf{x})=\prod_i p(x_i\mid \mathrm{Pa}(x_i))$. Course 3, [Chapter 16](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-16-structured-probabilistic-models/README.md).
 
 <a id="markov-random-field"></a>
 ### Markov Random Field (MRF)
@@ -800,7 +800,7 @@ Models $P(y|x)$ — boundary between classes. "Is this a cat?"
 
 <a id="generative-model"></a>
 ### Generative Model
-Models $P(x)$ or $P(x|z)$ — can **create** new samples. See [Section 1.1](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-01-generative-modeling/section-01-what-is-generative-modeling.md).
+Models $P(x)$ or $P(x|z)$ — can **create** new samples. See [Section 1.1](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-01-generative-modeling/section-01-what-is-generative-modeling.md).
 
 <a id="latent-variable"></a>
 ### Latent Variable
@@ -816,7 +816,7 @@ Generative model built from invertible transformations with tractable Jacobian d
 
 <a id="maximum-likelihood-estimation"></a>
 ### Maximum Likelihood Estimation (MLE)
-Choose parameters $\theta$ that maximize $P(\text{data}|\theta)$. See [Section 3.9](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-09-maximum-likelihood.md) and [Section 5.6](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-06-maximum-likelihood-estimation.md).
+Choose parameters $\theta$ that maximize $P(\text{data}|\theta)$. See [Section 3.9](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-03-probability-information-theory/section-09-maximum-likelihood.md) and [Section 5.6](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/section-06-maximum-likelihood-estimation.md).
 
 <a id="variational-autoencoder"></a>
 ### Variational Autoencoder (VAE)
@@ -833,15 +833,15 @@ Learns to reverse gradual noise addition. Powers Stable Diffusion. Course 4, Cha
 
 <a id="ddpm"></a>
 ### DDPM
-Denoising Diffusion Probabilistic Model: a diffusion model that learns to reverse a fixed Gaussian noising process step by step. See [Course 4, Chapter 08](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-08-diffusion-models/README.md).
+Denoising Diffusion Probabilistic Model: a diffusion model that learns to reverse a fixed Gaussian noising process step by step. See [Course 4, Chapter 08](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-08-diffusion-models/README.md).
 
 <a id="latent-diffusion"></a>
 ### Latent Diffusion
-Diffusion performed in a compressed VAE latent space rather than directly in pixel space, reducing compute while preserving high-resolution synthesis. See [Stable Diffusion](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-06-stable-diffusion.md).
+Diffusion performed in a compressed VAE latent space rather than directly in pixel space, reducing compute while preserving high-resolution synthesis. See [Stable Diffusion](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-06-stable-diffusion.md).
 
 <a id="stable-diffusion"></a>
 ### Stable Diffusion
-Text-to-image system combining a text encoder, latent diffusion U-Net, scheduler, and VAE decoder. See [Section 13.6](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-06-stable-diffusion.md).
+Text-to-image system combining a text encoder, latent diffusion U-Net, scheduler, and VAE decoder. See [Section 13.6](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-06-stable-diffusion.md).
 
 <a id="classifier-free-guidance"></a>
 ### Classifier-Free Guidance
@@ -849,31 +849,31 @@ Sampling technique that combines conditional and unconditional denoising predict
 
 <a id="clip"></a>
 ### CLIP
-Contrastive Language-Image Pretraining model that embeds images and text into a shared space. Used for retrieval, guidance, and multimodal alignment. See [Section 13.3](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-03-clip-deep-dive.md).
+Contrastive Language-Image Pretraining model that embeds images and text into a shared space. Used for retrieval, guidance, and multimodal alignment. See [Section 13.3](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-03-clip-deep-dive.md).
 
 <a id="dalle-2"></a>
 ### DALL-E 2
-Text-to-image architecture using CLIP-style text/image representations plus a prior and decoder stack. See [Section 13.4](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-04-dalle-2-prior-and-decoder.md).
+Text-to-image architecture using CLIP-style text/image representations plus a prior and decoder stack. See [Section 13.4](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-04-dalle-2-prior-and-decoder.md).
 
 <a id="imagen"></a>
 ### Imagen
-Text-to-image system emphasizing large frozen language encoders and cascaded diffusion super-resolution. See [Section 13.5](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-05-imagen.md).
+Text-to-image system emphasizing large frozen language encoders and cascaded diffusion super-resolution. See [Section 13.5](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-05-imagen.md).
 
 <a id="flamingo"></a>
 ### Flamingo
-Vision-language model family that connects visual encoders to language models for few-shot multimodal generation. See [Section 13.7](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-07-flamingo.md).
+Vision-language model family that connects visual encoders to language models for few-shot multimodal generation. See [Section 13.7](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-13-multimodal-models/section-07-flamingo.md).
 
 <a id="stylegan"></a>
 ### StyleGAN
-GAN family using style vectors, mapping networks, and progressive image synthesis controls for high-quality image generation. See [Section 10.3](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-10-advanced-gans/section-03-stylegan-architecture.md).
+GAN family using style vectors, mapping networks, and progressive image synthesis controls for high-quality image generation. See [Section 10.3](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-10-advanced-gans/section-03-stylegan-architecture.md).
 
 <a id="realnvp"></a>
 ### RealNVP
-Normalizing-flow architecture using affine coupling layers for exact likelihood and invertible sampling. See [Section 6.3](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-06-normalizing-flow-models/section-03-realnvp-architecture.md).
+Normalizing-flow architecture using affine coupling layers for exact likelihood and invertible sampling. See [Section 6.3](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-06-normalizing-flow-models/section-03-realnvp-architecture.md).
 
 <a id="energy-based-model"></a>
 ### Energy-Based Model (EBM)
-Model that assigns low energy to plausible samples and high energy to implausible samples, often requiring approximate sampling. See [Course 4, Chapter 07](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-07-energy-based-models/README.md).
+Model that assigns low energy to plausible samples and high energy to implausible samples, often requiring approximate sampling. See [Course 4, Chapter 07](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-07-energy-based-models/README.md).
 
 <a id="flow-matching"></a>
 ### Flow Matching
@@ -889,11 +889,11 @@ Diffusion architecture replacing or augmenting U-Net denoisers with transformer 
 
 <a id="gpt"></a>
 ### GPT
-Generative Pretrained Transformer: decoder-only autoregressive language model trained to predict the next token. See [Course 4, Chapter 09](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-09-transformers/README.md).
+Generative Pretrained Transformer: decoder-only autoregressive language model trained to predict the next token. See [Course 4, Chapter 09](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-09-transformers/README.md).
 
 <a id="transformer"></a>
 ### Transformer
-Neural architecture based on self-attention, feed-forward blocks, residual connections, and positional information. See [Course 4, Chapter 09](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-09-transformers/README.md).
+Neural architecture based on self-attention, feed-forward blocks, residual connections, and positional information. See [Course 4, Chapter 09](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-09-transformers/README.md).
 
 <a id="causal-language-modeling"></a>
 ### Causal Language Modeling
@@ -909,7 +909,7 @@ Reinforcement Learning from Human Feedback: alignment method using human prefere
 
 <a id="dpo"></a>
 ### DPO
-Direct Preference Optimization: preference-optimization method that trains from chosen/rejected answer pairs without a separate reward-model reinforcement loop. See [Section 14.9](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
+Direct Preference Optimization: preference-optimization method that trains from chosen/rejected answer pairs without a separate reward-model reinforcement loop. See [Section 14.9](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
 
 <a id="peft"></a>
 ### PEFT
@@ -917,11 +917,11 @@ Parameter-Efficient Fine-Tuning: adapting a pretrained model by training a small
 
 <a id="lora"></a>
 ### LoRA
-Low-Rank Adaptation: PEFT method that freezes base weights and trains low-rank update matrices. See [Section 14.9](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
+Low-Rank Adaptation: PEFT method that freezes base weights and trains low-rank update matrices. See [Section 14.9](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
 
 <a id="qlora"></a>
 ### QLoRA
-Quantized LoRA: LoRA fine-tuning with the frozen base model loaded in low precision to reduce memory requirements. See [Section 14.9](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
+Quantized LoRA: LoRA fine-tuning with the frozen base model loaded in low precision to reduce memory requirements. See [Section 14.9](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
 
 <a id="adapter"></a>
 ### Adapter
@@ -930,7 +930,7 @@ Small trainable chapter inserted into or alongside a pretrained network to speci
 <a id="retrieval-augmented-generation-rag"></a>
 <a id="rag"></a>
 ### RAG (Retrieval-Augmented Generation)
-Pattern that retrieves relevant source documents at query time and conditions the model on that context before generating an answer. See [Section 14.9](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
+Pattern that retrieves relevant source documents at query time and conditions the model on that context before generating an answer. See [Section 14.9](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
 
 <a id="vector-database"></a>
 ### Vector Database
@@ -958,7 +958,7 @@ Repeatable test suite for model behavior, including prompts, expected properties
 
 <a id="kv-cache"></a>
 ### KV Cache
-Stored attention keys and values from previous tokens during autoregressive decoding, used to avoid recomputing the entire prefix. See [Section 14.9](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
+Stored attention keys and values from previous tokens during autoregressive decoding, used to avoid recomputing the entire prefix. See [Section 14.9](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
 
 <a id="quantization"></a>
 ### Quantization
@@ -987,7 +987,7 @@ Attention with Linear Biases: positional method that adds distance-based attenti
 <a id="mixture-of-experts-moe"></a>
 <a id="moe"></a>
 ### Mixture of Experts (MoE)
-Architecture that routes tokens through a subset of expert networks, increasing total parameters while activating only part of the model per token. See [Section 14.9](https://github.com/Collaborative-ai/ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
+Architecture that routes tokens through a subset of expert networks, increasing total parameters while activating only part of the model per token. See [Section 14.9](https://github.com/donaldmorry/04-ai-academy-generative-deep-learning-systems/blob/main/chapters/chapter-14-conclusion/section-09-modern-llm-engineering.md).
 
 <a id="agentic-llm"></a>
 ### Agentic LLM

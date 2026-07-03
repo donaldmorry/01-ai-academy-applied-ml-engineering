@@ -254,7 +254,7 @@ Fraud is **rare** → sometimes framed as **anomaly detection**: learn "normal" 
 |------------------------------------------------------------------|------------------|
 | Uses labeled fraud | Can use mostly legit data |
 | Optimizes precision/recall on `Class` | Scores "weirdness" |
-| Prosise's Ch. 3 path | `IsolationForest`, autoencoders ([Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/README.md)) |
+| Prosise's Ch. 3 path | `IsolationForest`, autoencoders ([Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/README.md)) |
 
 ```python
 from sklearn.ensemble import IsolationForest

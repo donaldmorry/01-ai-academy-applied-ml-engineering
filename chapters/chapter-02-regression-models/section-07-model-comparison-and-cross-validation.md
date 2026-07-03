@@ -143,7 +143,7 @@ $$
 
 > **In plain English (again):** **Bias** = always wrong in the same direction (blurry glasses). **Variance** = wildly different answers depending on which training data you saw (mood swings).
 
-Formal theory in [Course 2, Chapter 19](https://github.com/Collaborative-ai/ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-19-learning-from-examples/README.md) and [Course 3, Chapter 05](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/README.md).
+Formal theory in [Course 2, Chapter 19](https://github.com/donaldmorry/02-ai-academy-artificial-intelligence-modern-approach/blob/main/chapters/chapter-19-learning-from-examples/README.md) and [Course 3, Chapter 05](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-05-machine-learning-basics/README.md).
 
 ---
 

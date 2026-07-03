@@ -63,7 +63,7 @@ $$
 
 **Milestone:** This is still "linear" because the model is **linear in the weights** $w_j$, even if features are nonlinear transforms (e.g. $x_1 = \text{distance}^2$ later).
 
-### Matrix form (used everywhere in [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/README.md))
+### Matrix form (used everywhere in [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-02-linear-algebra/README.md))
 
 Stack all examples into a design matrix $\mathbf{X}$ and all weights into $\mathbf{w}$:
 
@@ -117,7 +117,7 @@ Scikit-Learn's `LinearRegression` uses a stable numerical version of this (or SV
 
 ### Iterative view (connects to neural networks later)
 
-Some variants adjust $w$ step by step using gradients - same idea as [gradient descent](../../GLOSSARY.md#gradient-descent) in [Course 3](https://github.com/Collaborative-ai/ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/README.md). OLS for vanilla linear regression is the "one-shot" special case.
+Some variants adjust $w$ step by step using gradients - same idea as [gradient descent](../../GLOSSARY.md#gradient-descent) in [Course 3](https://github.com/donaldmorry/03-ai-academy-deep-learning-foundations/blob/main/chapters/chapter-04-numerical-computation/README.md). OLS for vanilla linear regression is the "one-shot" special case.
 
 ---
 
